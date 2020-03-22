@@ -1,0 +1,40 @@
+        section{
+            background: red;
+            color:white;
+            display: flex;
+            flex-direction: row-reverse;
+            /* flex-direction: column-reverse; */
+            margin: 5px;
+        }
+        div{
+            background: green;
+            width: 100px;
+            margin: auto;
+            height: 40px;
+        
+        }
+        footer{
+            padding: 20px 20px;
+            color:wheat;
+            background: black;
+        }
+        ul{
+            list-style-type:none;
+            display: flex;
+        }
+        li{
+            margin:auto;
+            width: 100px;
+        }
+
+        li:first-child{
+            background: blueviolet;
+        }
+
+        li:active{
+            background: rgb(0, 247, 255);
+        }
+
+        li:hover{
+            background: rgb(255, 0, 140);
+        }
